@@ -57,13 +57,16 @@ public class Q6AutoLeftHigh extends LinearOpMode {
                 .splineToConstantHeading(new Vector2d(20,-5),Math.toRadians(0))
                 .build();
 
+
         Trajectory secondPos = drive.trajectoryBuilder(firstPos.end())
                 .splineToLinearHeading(new Pose2d(60,-5,Math.toRadians(103)),Math.toRadians(0))
                 .build();
 
+
         Trajectory thirdPos = drive.trajectoryBuilder(secondPos.end())
                 .back(2)
                 .build();
+
 
         Trajectory secondpark = drive.trajectoryBuilder(thirdPos.end())
                 .splineToLinearHeading(new Pose2d(28,-5,Math.toRadians(0)),Math.toRadians(0))
