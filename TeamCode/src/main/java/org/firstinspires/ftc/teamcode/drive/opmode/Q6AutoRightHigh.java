@@ -102,6 +102,7 @@ public class Q6AutoRightHigh extends LinearOpMode {
         HElbow.setPosition(1);
         sleep(300);
         extendHorizontal(1,40);
+
         sleep(400);
         HWrist.setPosition(1);
         sleep(400);
