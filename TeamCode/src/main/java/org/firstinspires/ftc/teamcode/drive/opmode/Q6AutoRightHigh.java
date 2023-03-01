@@ -86,8 +86,8 @@ public class Q6AutoRightHigh extends LinearOpMode {
         sleep(100);
         VWrist.setPosition(0);
         sleep(800);
-        extendVertical(1,-660);
-        extendVertical(1,-660);
+        extendVertical(1,-1460);
+        extendVertical(1,-1460);
         sleep(200);
         extendHorizontal(1,580);
         sleep(800);
@@ -116,8 +116,9 @@ public class Q6AutoRightHigh extends LinearOpMode {
         sleep(100);
         VWrist.setPosition(0);
         sleep(200);
-        extendVertical(1,-750);
+        extendVertical(1,-1550);
         extendHorizontal(1,580);
+        sleep(200);
         VLeft.setPosition(1);
         sleep(300);
         VWrist.setPosition(.84);
@@ -143,8 +144,9 @@ public class Q6AutoRightHigh extends LinearOpMode {
         sleep(100);
         VWrist.setPosition(0);
         sleep(200);
-        extendVertical(1,-750);
+        extendVertical(1,-1550);
         extendHorizontal(1,580);
+        sleep(200);
         VLeft.setPosition(1);
         sleep(300);
         VWrist.setPosition(.84);
@@ -170,8 +172,9 @@ public class Q6AutoRightHigh extends LinearOpMode {
         sleep(100);
         VWrist.setPosition(0);
         sleep(200);
-        extendVertical(1,-750);
+        extendVertical(1,-1550);
         extendHorizontal(1,590);
+        sleep(200);
         VLeft.setPosition(1);
         sleep(300);
         VWrist.setPosition(.84);
@@ -197,8 +200,9 @@ public class Q6AutoRightHigh extends LinearOpMode {
         sleep(100);
         VWrist.setPosition(0);
         sleep(200);
-        extendVertical(1,-750);
+        extendVertical(1,-1550);
         extendHorizontal(1,600);
+        sleep(200);
         VLeft.setPosition(1);
         sleep(300);
         VWrist.setPosition(.84);
@@ -221,7 +225,7 @@ public class Q6AutoRightHigh extends LinearOpMode {
         VLeft.setPosition(0);
         VWrist.setPosition(0);
         sleep(400);
-        extendVertical(1,-660);
+        extendVertical(1,-1550);
         sleep(500);
         VLeft.setPosition(1);
         sleep(300);
@@ -229,7 +233,6 @@ public class Q6AutoRightHigh extends LinearOpMode {
         extendVertical(1,0);
         HElbow.setPosition(1);
         extendHorizontal(1,0);
-        drive.followTrajectory(secondpark);
 
 
 
